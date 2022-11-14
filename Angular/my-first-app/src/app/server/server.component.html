@@ -1,0 +1,15 @@
+<h2>the server component</h2>
+<p>The Server {{ serverID }} is {{ serverStatus }} </p>
+<p>The {{ 'Server' }} {{ serverID }} is {{ serverStatus }} </p>
+<p>The {{ 'Server' }} {{ serverID }} is {{ getServerStatus() }} </p>
+<!-- <p>The {{ <call some method here that returns string> }} {{ serverID }} is {{ serverStatus }} </p> -->
+    <!-- we can use:
+        1. string interpolation
+        2. hard code string
+        3. call a function that returns string
+        4. ternary expression: condition ? doThisIfTrue : doThisIfFalse
+        
+        while we cannot use 
+        1. block expression 
+        2. multi-line expression 
+        3. "if" or a "for" control structure  -->
